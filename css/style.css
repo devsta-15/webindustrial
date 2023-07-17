@@ -5,13 +5,14 @@
 }
 
 .slider{
+    display: flex;
+    align-items: center;
     width: 100%;
-    height: 118vh;
+    height: 100vh;
     animation-name: fondo;
     transition: all .5s !important;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
-    margin-top: -109px;
     background-image: url("https://p.w3layouts.com/demos_new/template_demo/31-05-2021/secttore-liberty-demo_Free/1583613375/web/assets/images/banner2.jpg");
     background-position: center center;
     background-size: cover;
@@ -28,9 +29,52 @@
     
 
     100%{
-        background-image: url("https://media.istockphoto.com/id/610749374/es/foto/maquinista-configurando-con-precisi%C3%B3n-las-ruedas-dentadas.jpg?s=612x612&w=0&k=20&c=aJTyZMUiPxmJ7dqhSv9PjSI_m1QOzP83Q3EyfGaC060=");
+        background-image: url("https://www.eurojoaquin.es/wp-content/uploads/2021/04/carpinteria-eurojoaquin-ebanisteria-logrono.jpg");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
     }
+}
+
+.slider div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    margin: 90px;
+    color:rgb(255, 255, 255);
+}
+
+div h1{
+    font-size: 70px;
+}
+
+@media  (max-width: 700px) {
+    .slider{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        height: 50vh;
+        animation-name: fondo;
+        transition: all .5s !important;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        background-image: url("https://p.w3layouts.com/demos_new/template_demo/31-05-2021/secttore-liberty-demo_Free/1583613375/web/assets/images/banner2.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .slider div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+        height: 200px;
+        color:rgb(255, 255, 255);
+    }
+    div h1,p{
+        font-size: 40px;
+    }
+
 }
