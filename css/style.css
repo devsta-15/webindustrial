@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: none;
+}
+
+.slider{
+    width: 100%;
+    height: 118vh;
+    animation-name: fondo;
+    transition: all .5s !important;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    margin-top: -109px;
+    background-image: url("https://p.w3layouts.com/demos_new/template_demo/31-05-2021/secttore-liberty-demo_Free/1583613375/web/assets/images/banner2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes fondo{
+    50%{
+        background-image: url("https://p.w3layouts.com/demos_new/template_demo/31-05-2021/secttore-liberty-demo_Free/1583613375/web/assets/images/banner1.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+
+    100%{
+        background-image: url("https://media.istockphoto.com/id/610749374/es/foto/maquinista-configurando-con-precisi%C3%B3n-las-ruedas-dentadas.jpg?s=612x612&w=0&k=20&c=aJTyZMUiPxmJ7dqhSv9PjSI_m1QOzP83Q3EyfGaC060=");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
