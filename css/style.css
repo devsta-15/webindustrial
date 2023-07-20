@@ -95,11 +95,11 @@ i{
     color: black;
 }
 
-.header-derecha .menu-lista{
+.header-izquierda .menu-lista{
     display: none;
 }
 
-.header-derecha input{
+.header-izquierda input{
     display: none;
 }
 
@@ -113,7 +113,7 @@ i{
         font-size: 16px;
     }
     .header-izquierda .lista-industrial{
-        display: block;
+        display: none;
         position: absolute;
         padding: 10px;
         background-color: red;
@@ -135,6 +135,23 @@ i{
         
     }
 
+    .header-derecha .menu-lista{
+        display: flex;
+        padding: 8px;
+        background-color: #ff5e14;
+        color: white;
+        border-radius: 5px;
+    }
+    
+
+    .header-derecha input:checked .header-izquierda .lista-industrial{
+        display: block;
+        transition: all .5s;
+    }
+
+
+
+
     .header-derecha .lupa{
         display: none;
     }
@@ -147,13 +164,7 @@ i{
         display: none;
     }
 
-    .header-derecha .menu-lista{
-    display: flex;
-    padding: 8px;
-    background-color: #ff5e14;
-    color: white;
-    border-radius: 5px;
-}
+   
 
 
 }
