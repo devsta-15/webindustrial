@@ -58,6 +58,10 @@ i{
     font-size: 10px;
 }
 
+.header-izquierda .lupa-izquierda{
+    display: none;
+}
+
 
 .header-derecha{
     display: flex;
@@ -105,11 +109,30 @@ i{
 
 
     .header-top{
-        padding: 0px 30px 0px 30px;
+        padding: 20px 30px 0px 30px;
         font-size: 16px;
     }
     .header-izquierda .lista-industrial{
-        display: none;
+        display: block;
+        position: absolute;
+        padding: 10px;
+        background-color: red;
+        margin-top: 75%;
+        width: 85%;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .header-izquierda .lista-industrial .lupa-izquierda{
+        display: block;
+    }
+
+    
+
+    .header-izquierda .lista-industrial li{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        
     }
 
     .header-derecha .lupa{
@@ -131,5 +154,6 @@ i{
     color: white;
     border-radius: 5px;
 }
+
 
 }
