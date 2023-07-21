@@ -6,9 +6,9 @@
 
 .slider{
     display: flex;
-    align-items: center;
     width: 100%;
     height: 100vh;
+    flex-direction: column;
     animation-name: fondo;
     transition: all .5s !important;
     animation-duration: 20s;
@@ -36,18 +36,45 @@
     }
 }
 
-.slider div{
+.texto{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 600px;
-    height: 500px;
-    margin: 90px;
+    width: 700px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 100px;
     color:rgb(255, 255, 255);
 }
 
 div h1{
     font-size: 70px;
+}
+div h2,{
+    font-size: 30px;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 50px;
+    padding-left: 100px;
+    padding-top: 30px;
+    gap: 40px;
+}
+
+.width img{
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+.width{
+    display: flex;
+    color:rgb(255, 255, 255);
+}
+.width p{
+    font-size: 20px;
 }
 
 @media  (max-width: 700px) {
@@ -56,25 +83,42 @@ div h1{
         justify-content: flex-start;
         width: 100%;
         height: 50vh;
-        animation-name: fondo;
-        transition: all .5s !important;
-        animation-duration: 20s;
-        animation-iteration-count: infinite;
-        background-image: url("https://p.w3layouts.com/demos_new/template_demo/31-05-2021/secttore-liberty-demo_Free/1583613375/web/assets/images/banner2.jpg");
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
-    .slider div{
+    
+    .texto{
         display: flex;
-        justify-content: center;
-        flex-direction: column;
         width: 300px;
-        height: 200px;
+        height: 150px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .texto h1{
+        font-size: 30px;
+    }
+    .texto p{
+        font-size: 20px;
+    }
+    .iconos{
+        display: flex;
+        flex-direction: column;
+        width: 10px;
+        height: 30px;
+        padding-left: 50px;
+        padding-top: 0px;
+
+    }
+    
+    .width img{
+        display: flex;
+        width: 40px;
+        height: 40px;
+    }
+    .width{
+        display: flex;
         color:rgb(255, 255, 255);
     }
-    div h1,p{
-        font-size: 40px;
+    .width p,h2{
+        font-size: 18px;
     }
 
 }
