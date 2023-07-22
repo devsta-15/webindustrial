@@ -8,7 +8,7 @@
 }
 
 :root{
-    --rellenos-laterales: 50px 160px 50px 160px;
+    --rellenos-laterales: 50px 120px 50px 120px;
     
 }
 
@@ -28,7 +28,8 @@
 }
 .header-top a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 17px;
 }
 
 .header-top .casco{
@@ -75,16 +76,17 @@
         font-size: 16px;
         gap: 10px;
         align-items: center;
-        border: solid 1px black;
+        justify-content: space-between;
+        position: relative;
         
     }
     
-    .header-top .titulo a{
-        padding-right: 150px;
-    }
+  .header-top .titulo{
+    width: 80px;
+  }
 
     .header-top h2{
-        font-size: 20px;
+        font-size: 18px;
     }
     
 
@@ -97,14 +99,19 @@
     }
 
     .header-top .espacio{
-        width: 60%;
+        width: 35%;
         display: flex;
+        
     }
 
     .header-top .lista-industrial{
         display: none;
+        
     }
 
+    .header-top .caja-lista .lista-industrial .item-lista-indus a{
+        color: black;
+    }
 
     .header-top .menu-lista{
         display: flex;
@@ -119,15 +126,26 @@
         position: absolute;
         margin-top: 70%;
         width: 42vh;
+        
     }
     .header-top  input:checked ~  .caja-lista .lista-industrial{
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+        background-color: white;
         border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         
     }
+
+    .header-top .caja-lista .lista-industrial .item-lista-indus a:hover{
+        color: #ff5e14;
+        transition: all .5s;
+    }
+    
+
+    
     
         
     }
@@ -136,7 +154,8 @@
 .slider{
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
+    margin-top: -100px;     
     flex-direction: column;
     animation-name: fondo;
     transition: all .5s !important;
@@ -211,7 +230,8 @@ div h2{
         display: flex;
         justify-content: flex-start;
         width: 100%;
-        height: 50vh;
+        height: 80vh;
+        padding-top: 50px;
     }
     
     .texto{
