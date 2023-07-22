@@ -55,8 +55,12 @@
         font-size: 16px;
     }
     
-    .header-top .titulo{
-    
+    .header-top .titulo a{
+        padding-right: 150px;
+    }
+
+    .header-top h2{
+        font-size: 20px;
     }
     .header-top .lista-industrial{
         display: none;
