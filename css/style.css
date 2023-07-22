@@ -124,3 +124,13 @@
         margin: 0 auto;
     }
 }
+
+.texto1{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.texto2{
+    display:flex;
+    flex-wrap:wrap;
+}
