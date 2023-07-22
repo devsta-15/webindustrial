@@ -487,13 +487,6 @@ div h2{
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    box-sizing: border-box;
-    
-}
 
 .contenedor{
     display: flex;
@@ -538,11 +531,6 @@ padding: 0px 200px 10px 0px;
     
 } 
 
-.texto1{
-    color: white;
-    font-size: 38px;
-     
-}
 
 .boton {
     color: #ff5e14;
