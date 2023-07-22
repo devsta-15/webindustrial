@@ -396,3 +396,181 @@ div h2{
         justify-content: center;
     }
 }
+
+
+.contenedor-principal-seccion-3{
+    display: flex;
+    background-color:#f6f6f6;
+    align-items: center;
+    height: 600px;
+    justify-content: center;
+    padding-right: 130px;
+}
+
+.img-1{
+    display: flex;
+    width: 70%;
+    margin: 90px ;
+    padding-top: -40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} 
+
+.img-1:hover{
+    display: flex;
+    width: 75%;
+    margin: 90px ;
+    padding-top: -40px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 1s;
+    
+}   
+
+
+.cj-img-1{
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 48px;
+    padding-bottom: 80px;
+}
+
+.cj-ul-2{
+    width: 50%;
+    padding-right: 120px;
+    padding-left: 60px;
+}
+
+.title-1{
+    color: #ff5e14;
+    font-size: 16px;
+}
+
+.title-2{
+    font-size: 36px;
+    display: flex;
+    align-content: space-around;
+}
+.parra-seccion-3{
+    font-size: 17px;
+}
+
+.lista-madre{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin: 0px 10px 0px 0px;
+    gap: 20px;
+
+}
+
+.icono{
+    color: #ff5e14;
+    margin: 10px;
+}
+
+.boton-seccion-3{
+    background: #ff5e14;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://p.w3layouts.com/demos_new/template_demo/31-05-2021/secttore-liberty-demo_Free/1583613375/web/assets/images/banner5.jpg);
+    width: 100%;
+    height: 60vh;
+    background-position:center center ;
+    background-repeat: no-repeat;
+    padding: 10px 0px 100px 60px;
+    
+    
+    
+    
+}
+
+.caja-izquierda { 
+display: flex;
+width: 50%;
+flex-direction: column;
+align-items: flex-start;
+color: white;
+font-size: 40px;
+justify-content: center;
+gap: 40px;
+padding: 0px 200px 10px 0px;
+
+
+}
+
+
+
+
+.our {
+    display: flex;
+    color: #ff5e14;
+    font-size: 20px;
+    width: 200px;
+
+    
+} 
+
+
+.boton {
+    color: #ff5e14;
+    font-size: 17px;
+    background-color:white;
+    padding: 20px 30px 20px 30px;
+    border-radius: 3px;
+    text-decoration: none;
+    
+
+}
+
+.boton:hover {
+    color: white;
+    font-size: 17px;
+    background-color:#ff5e14;
+    padding: 18px 30px 18px 30px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all .5s;
+
+
+}
+
+
+.caja-derecha {
+    display: flex;
+    width: 50%;
+    color: white;
+    gap: 70px;
+    font-size: 40px;
+    padding: 0px 110px 100px 0px;
+
+}
+
+.numeros {
+   color: #ff5e14; 
+   font-size: 50px;
+}
+
+.parrafos {
+    color: white;
+    font-size: 20px;
+}
