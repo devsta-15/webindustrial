@@ -16,11 +16,24 @@
 
 .img-1{
     display: flex;
-    width: 417px;
+    width: 70%;
     margin: 90px ;
     padding-top: -40px;
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
+    
+} 
+
+.img-1:hover{
+    display: flex;
+    width: 75%;
+    margin: 90px ;
+    padding-top: -40px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 1s;
     
 }   
 
@@ -75,6 +88,7 @@
     padding: 10px 20px 10px 20px;
     margin-top: 50px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 
