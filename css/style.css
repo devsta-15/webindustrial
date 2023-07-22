@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-size: none;
+    list-style: none;
+    background-color: #F7F7F7F7;
+}
+
+
+.cajas{
+    background-color: #FFFFFF;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 543.7px;
+    margin: 0 auto;
+}
+.caja h4{
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+
+.c1 h6{
+    background-color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    line-height: 1.5;
+    color: rgb(255, 94, 20);
+    }
+
+.c1 h3{
+    background: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.2;
+    font-size: xx-large;
+    width: 480px;
+    height: 201px;
+}
+
+.c2 p{
+    background: #FFFFFF;
+    width: 480px;
+    height: 230px;
+}
+
+.c3 h4{
+    background-image: url(https://www.inerco.com/blog/wp-content/uploads/2019/04/iStock-922601466.jpg);
+    background-blend-mode: darken;
+    text-align: justify;
+    line-height: 225px;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    width: 319.98px;
+    height: 213.48px;
+    background-size: cover;
+    background-position: center;
+}
+
+.c4 h4{
+    background-image: url(https://www.impulsonegocios.com/wp-content/uploads/2021/01/ACTIVIDAD-INDUSTRIAL.jpg);
+    background-blend-mode: darken;
+    text-align: center;
+    line-height: 225px;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    width: 319.98px;
+    height: 213.48px;
+    background-size: cover;
+    background-position: center;
+}
+
+.c5 h4{
+    background-image: url(https://www.tessissac.com/img/otros/industria-otros.jpg);
+    background-blend-mode: darken;
+    text-align: center;
+    line-height: 225px;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    width: 319.98px;
+    height: 213.48px;
+    background-size: cover;
+    background-position: center;
+}
+
+.texto1{
+    display: flex;
+
+}
+
+.texto2{
+    display: flex;
+}
+
+.lorem{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    line-height: 27px;
+    color: #A9B0B4;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+@media (max-width: 850px){
+    .cajas{
+        background-color: #F7F7F7F7;
+        padding: 20px;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+}
