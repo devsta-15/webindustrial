@@ -47,3 +47,28 @@
 
 /*Media Queries*/
 
+@media(max-width: 767px){
+
+
+    .header-top{
+        padding: 20px 30px 0px 30px;
+        font-size: 16px;
+    }
+    
+    .header-top .titulo{
+    
+    }
+    .header-top .lista-industrial{
+        display: none;
+    }
+
+    .header-derecha input:checked .header-izquierda .lista-industrial{
+        display: block;
+        transition: all .5s;
+    }
+
+
+   
+
+
+}
